@@ -1,0 +1,114 @@
+@font-face {
+    font-family: Yftoow;
+    src: url("Yftoow-R.ttf");
+}
+
+a:link{color: #ebdbad;}
+a:visited{color: indianred}
+
+body{
+    font-family: "Yftoow", sans-serif;
+    margin: 0;
+}
+
+table{
+    margin: 0;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#header{
+    background-color: #4a281c;
+    color: #ebdbad;
+    width: 100%;
+}
+
+#first{
+    float: right;
+    width: 40%;
+    font-size: 18px;
+    margin-right: 10%;
+}
+#first>ol{
+    text-align: right;
+    list-style-position: inside;
+}
+#first>ul{
+    text-align: right;
+    list-style: circle inside;
+}
+#top-box{
+    float: left;
+    width: 30%;
+    margin: 25px 60px;
+    background-color: #e6d299;
+    color: #4a281c;
+}
+#top-box>h1{
+    text-align: right;
+    margin-right: 5px;
+}
+
+#second{
+    width: 25%;
+    background-color: #6f3c2a;
+}
+#second>p{
+    margin: 5%;
+    text-align: right;
+    color: #ebdbad;
+    text-shadow: 2px 2px black;
+}
+
+#third{
+    background-color: #e6d299;
+    text-align: right;
+}
+#third>p{
+    margin: 20px 20px 20px 20px;
+    color: #4a281c;
+}
+
+#fourth{
+    width: 25%;
+    background-color: #6f3c2a;
+    color: #ebdbad;
+    text-shadow: 2px 2px black;
+}
+#fourth>p{
+    margin: 20px;
+    text-align: right;
+}
+#fourth>img{
+    width: 80%;
+    margin: 10% 10%;
+}
+#fifth{
+    background-color: indianred;
+    text-align: center;
+}
+#fifth>p{
+    font-size: 20px;
+    margin: 15px;
+}
+
+#sixth{
+    justify-content: center;
+    background-color: #4a281c;
+    color: #ebdbad;
+}
+#down-box{
+    margin: 10%;
+    float: left;
+    width: 30%;
+    background-color: #e6d299;
+    color: #4a281c;
+    text-align: center;
+}
+#down-box>h2{
+    margin: 10px;
+}
+#sixth>p{
+    margin: 5%;
+    text-align: right;
+}
